@@ -2,7 +2,7 @@ import {
   addContactThunk,
   deleteContactThunk,
   getContactsThunk,
-} from 'components/redux/thunk';
+} from 'redux/thunk';
 
 const arrThunks = [addContactThunk, deleteContactThunk, getContactsThunk];
 

@@ -5,13 +5,9 @@ import { Section, Title, TitleMain } from './App.styled';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useSelector, useDispatch } from 'react-redux';
-import {
-  getContacts,
-  getError,
-  getIsLoading,
-} from 'components/redux/selectors';
+import { getContacts, getError, getIsLoading } from 'redux/selectors';
 import { useEffect } from 'react';
-import { getContactsThunk } from 'components/redux/thunk';
+import { getContactsThunk } from 'redux/thunk';
 import Loader from 'components/Loader/Loader';
 
 const App = () => {
